@@ -18,6 +18,11 @@ header {
   background-color: black;
 }
 
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
 header img {
   height: 50px;
   padding-left: 10px;
@@ -94,9 +99,12 @@ nav span a {
   margin: 10px;
 }
 
+.box span {
+  font-weight: bold;
+}
+
 .location-box {
-  height: 280px;
-  width: 280px;
+  flex-basis: 280px;
   text-align: center;
   opacity: 1;
   background-color: black;
@@ -105,4 +113,13 @@ nav span a {
   flex-direction: column;
   justify-content: center;
   margin: 5px 20px;
+}
+
+#info {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
 }
